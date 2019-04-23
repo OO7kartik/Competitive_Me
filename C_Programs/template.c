@@ -34,17 +34,15 @@ _______________`$$$$$$$$$$$$$$$$$$$$´_*/
 #define MOD                   1000000007
 #define ffor(i,a,n)           for(int i = a; i < n; i++)
 #define dfor(i,a,n)           for(int i = a; i > n; --i)
+#define parr(i,a,n,arr)        for(int i = a; i < n; i++) printf("%d ", arr[i]);
 
 int main() {
   int n, i, j, k, arr[10];
-  printf("enter the numbers\n");
-  ffor(i,0,5) {
-    scn(arr[i]);
-  }
-  printf("now we will print these elements\n");
-  ffor(i,0,5) {
-    printf("%d\n", arr[i]);
-  }
+
+  // to take input an array length n
+  // scn(n);
+  // ffor(i,0,n) scn(arr[i]);
+
 
   return 0;
 }
